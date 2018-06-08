@@ -11,8 +11,8 @@ class App extends Component {
           <h1 className="App-title">lohnns tribune</h1>
         </header>
         <p className="App-intro">
-          <Resume content='test'/>
         </p>
+        <Resume />
       </div>
     );
   }
