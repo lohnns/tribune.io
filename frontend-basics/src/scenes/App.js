@@ -10,7 +10,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">lohnns tribune</h1>
         </header>
-        <Resume content="Hello world!" />
+        <Resume />
       </div>
     );
   }

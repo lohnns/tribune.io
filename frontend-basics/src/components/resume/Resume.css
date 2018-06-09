@@ -1,0 +1,16 @@
+.resume {
+  width: 50%;
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.paragraph {
+  display: block;
+  text-align: justify;
+}
+
+.paragraph + .paragraph {
+  margin-top: 12px;
+}
