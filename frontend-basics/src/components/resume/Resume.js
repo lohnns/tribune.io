@@ -2,9 +2,14 @@ import React from "react";
 
 import "./Resume.css";
 
-const Resume = ( {content} ) => (
+const Resume = ({ content }) => (
   <div className="resume">
-    <span className="paragraph">{content === undefined ? mockContent() : content}</span>
+    <span className="paragraph">
+      {content === undefined ? mockContent() : content}
+    </span>
+    <span className="paragraph">
+      {content === undefined ? mockContent() : content}
+    </span>
   </div>
 );
 

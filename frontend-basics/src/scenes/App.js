@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Resume from "../components/resume/Resume";
+import SkillsPanel from "../components/skillsPanel/SkillsPanel";
 
 import "./App.css";
 
@@ -11,6 +12,7 @@ class App extends Component {
           <h1 className="App-title">lohnns tribune</h1>
         </header>
         <Resume />
+        <SkillsPanel />
       </div>
     );
   }

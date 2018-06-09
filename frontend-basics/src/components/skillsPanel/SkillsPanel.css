@@ -1,17 +1,9 @@
-.resume {
+.skills-panel {
   width: 50%;
   margin: auto;
   margin-top: 16px;
   margin-bottom: 16px;
   padding: 10px;
   border: outset 1px coral;
-}
-
-.paragraph {
-  display: block;
-  text-align: justify;
-}
-
-.paragraph + .paragraph {
-  margin-top: 12px;
+  text-align: left;
 }
