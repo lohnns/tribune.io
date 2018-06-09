@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Resume from '../components/resume/Resume';
+import React, { Component } from "react";
+import Resume from "../components/resume/Resume";
 
-import './App.css';
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -10,9 +10,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">lohnns tribune</h1>
         </header>
-        <p className="App-intro">
-        </p>
-        <Resume />
+        <Resume content="Hello world!" />
       </div>
     );
   }
