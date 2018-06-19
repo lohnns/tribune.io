@@ -1,7 +1,6 @@
-function component() {
-  var element = document.createElement("div");
-  element.innerHTML = "Hello world!";
-  return element;
-}
+import React from "react";
+import ReactDOM from "react-dom";
 
-document.body.appendChild(component());
+import App from "./root/App";
+
+ReactDOM.render(<App />, document.getElementById("app"));

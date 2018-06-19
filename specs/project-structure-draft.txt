@@ -1,0 +1,31 @@
+/ public
+	- index.html
+/ assets
+	/ fonts
+	/ images
+/ src
+	/ common
+		- utils.js
+	/ components
+		/ Button
+			- index.js
+			- Button.jsx
+			- Button.test.js
+	/ scenes
+		/ AboutMe
+			/ components
+				/ MyInnerComponent
+					- index.js
+					- MyInnerComponent.jsx
+					- MyInnerComponent.test.js
+			- index.js
+			- AboutMe.jsx
+			- AboutMe.test.js
+	- App.jsx
+	- App.test.js
+	- index.js
+/ build
+/ nodes_modules
+- package.json
+- webpack.config.json
+- yarn.lock
