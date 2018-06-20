@@ -13,7 +13,7 @@ const cleanPlugin = new CleanWebpackPlugin([buildDir]);
 
 module.exports = {
   entry: {
-    app: path.resolve(sourceDir, "index.js")
+    app: ["babel-polyfill", path.resolve(sourceDir, "index.js")]
   },
   output: {
     filename: "[name].bundle.js",
