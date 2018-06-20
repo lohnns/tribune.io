@@ -24,7 +24,6 @@
     "webpack-cli": "^3.0.8"
   },
   "author": "lohnns <lohnns.dev@gmail.com>",
-  "license": "ISC",
   "homepage": "https://github.com/lohnns/tribune.io#readme",
   "keywords": [],
   "repository": {
