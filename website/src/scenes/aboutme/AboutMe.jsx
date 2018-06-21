@@ -4,7 +4,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div>
-        <h2>About me</h2>
+        <h2>About me too</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
           euismod felis quis leo elementum mattis. Curabitur ut imperdiet nibh.
